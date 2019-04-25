@@ -1,0 +1,38 @@
+
+.gig-to-gig {
+	background-image: url("../img/Frist.jpg");
+    background-size: cover;
+}
+.col-sm-6.img-info {
+	max-width: 100%;
+	height: auto;
+}
+.col-sm-6 p {
+	font-size: 20px;
+	text-align: left;
+}
+/*.col-sm-6 span {
+	text-align: left;
+}*/
+
+.btn {
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+	border: 10px;
+	margin: 20px;
+	background-color:#000000 ;
+	color :#ffffff;
+	font-size: 20px;
+
+}
+
+.seeker-video {
+	max-width: 100%;
+	height: auto;
+}
+
+.community {
+	max-width: 100%;
+	height: auto;
+}
