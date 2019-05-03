@@ -1,16 +1,21 @@
-
 .gig-to-gig {
 	background-image: url("../img/Frist.jpg");
     background-size: cover;
 }
-.col-sm-6.img-info {
+
+.img-info img {
 	max-width: 100%;
 	height: auto;
 }
-.col-sm-6 p {
-	font-size: 20px;
-	text-align: left;
+.text-img {
+	margin: 30px;	
 }
+
+.navbar-brand img {
+	max-width :webkit-fill-available;
+	height: inherit;
+}
+/*reduce using element should use class and call class*/
 /*.col-sm-6 span {
 	text-align: left;
 }*/
@@ -36,16 +41,17 @@
 	max-width: 100%;
 	height: auto;
 }
-#gitlogo {
-	text-align: left;
-	margin: 10px;
-	padding: 100px;
-	border: 100px;
+.logo img {
+	max-width :webkit-fill-available;
+	height: inherit;
 }
-.container-fluid.footer {
+
+#footer {
 	background-color:#000000;
 }
-.container-fluid.footer a{
+
+/*cau lenh nay co nghia la trong class footer chon cac the a deu bi anh huong*/
+#footer .footer a {
 	color: #ffffff;
 	padding: 10px;
 	border: 20px;
@@ -55,24 +61,31 @@
 	text-decoration: bold;
 	display: block;
 }
-.container-fluid.footer {
+
+#footer .footer {
 	list-style-type: none;
 	color:#ffffff;
 }
-.go_footer_links_desktop
+
+/*chinh lai cho nho lai o cho rem*/
+#footer .go_footer_links_desktop
 {
 	display: inline-block;
-	padding: 0 5.5rem 0 0;
+	padding: 0 0.4rem 0 0;
 	vertical-align: top;
 }
-.go_footer_links_desktop img {
-	display: inline;
+
+#footer .go_footer_links_desktop .social-logo
+{
+	display: inline-flex;
 }
 
-
-
-
-
+#footer .go_footer_links_desktop img {
+	display: inline;
+}
+.navbar {
+	background-color: #000000;
+}
 
 
 
