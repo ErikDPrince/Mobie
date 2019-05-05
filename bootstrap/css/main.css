@@ -20,28 +20,62 @@
 	height: 3rem;
 }
 /*header */
-.gig-layout {
+.container.gig_layout {
 
 	/*background-image: url("../img/Frist.jpg");*/
     background-image: url("../img/Frist.jpg");
     background-size: cover;
-    width: 100vw;
+    background-position: center;
     height: 35vw;
+    width: 100%;
     margin-bottom: 30px;
 }
+.go_header_overlay_container {
+	margin: 0 auto;
+	padding: 10rem 0;
+}
+.go_header_overlay_background {
+	position: inherit;
+	top:0;
+	left: 0;
+	bottom: 0;
+	height: 100%;
+	width: 55%;
+	background-color: rgba(255,255,255,0.8);
+}
+.go_header_overlay_outer {
+	padding-left: 12rem;
+	position: relative;
+	margin: 0 auto;
+}
+.go_header_overlay_heading {
+	font-weight: 300;
+	font-size: 4,5rem;
+	line-height: 1.2em;
+}
+.go_header_overlay_summary {
+	font-size: 2,5rem;
+	font-weight: 700;
+	margin-top: 2rem;
+}
 /*body include picture and text*/
-.img-info img {
+.img_info img {
 	max-width: 100%;
 	height: auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-.text-img {
+.text_img {
 	margin: 30px;	
+}
+.text_img p {
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 1,2em;
 }
 .btn {
 	text-align: center;
-	/*font-weight: bold;*/
+	font-weight: 400;
 	padding: 10px;
 	border: 10px;
 	margin: 20px;
@@ -62,14 +96,21 @@
 
 
 
-.seeker-video {
+.seeker_video {
 	max-width: 100%;
 	height: auto;
 }
 
-.community {
-	max-width: 100%;
-	height: auto;
+.container.community {
+	background-image: url("../img/community.png");
+	margin: 14vh 12vw 14vh 12vw;
+	/*margin-right: 10px;
+	margin-left: 10px;*/
+	background-size: cover;
+	background-position: center;
+	width: -webkit-fill-available;
+	height: 30vw;
+	/*margin: 100;*/
 }
 .logo img {
 	max-width :webkit-fill-available;
@@ -80,7 +121,8 @@
 	background-color:#000000;
 }
 
-/*cau lenh nay co nghia la trong class footer chon cac the a deu bi anh huong*/
+/*cau lenh nay co nghia la trong class footer chon cac the a 
+deu bi anh huong*/
 #footer .footer a {
 	color: #ffffff;
 	padding: 10px;
@@ -105,7 +147,7 @@
 	vertical-align: top;
 }
 
-#footer .go_footer_links_desktop .social-logo
+#footer .go_footer_links_desktop .social_logo
 {
 	display: inline-flex;
 }
@@ -119,8 +161,10 @@
 	/*width: 1rem;
 	height: 1rem;*/
 }
-
-
+/*class thi_ ko nen - */
+/*cách chia class hiển thị trong mobi và 
+destop khác nhau hidden element in bootstrap*/
+/*nguyen tac su dung container la phai co row va colum*/
 
 
 
