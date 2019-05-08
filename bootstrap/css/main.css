@@ -1,8 +1,5 @@
 /*change  default color of bootstrap navbar*/
-.navbar {
-	background-color: #000000;
-
-}
+/*cac class nên cach nhau bang dau - ko nen dau _*/
 .collapse.navbar-collapse .navbar-nav a {
 	font-weight: bold;
 	font-size: 15px;
@@ -14,7 +11,9 @@
 }
 .navbar {
 	margin-bottom: 0;
+	background-color: #000000;
 }
+
 .navbar-brand img {
 	width :4rem;
 	height: 3rem;
@@ -42,19 +41,38 @@
 	height: 100%;
 	width: 55%;
 	background-color: rgba(255,255,255,0.8);
+	padding: 30px 0 30px 60px;
+	line-height: 25px;
+
 }
+
 .go_header_overlay_outer {
-	padding-left: 12rem;
+	padding-left: 12px;
 	position: relative;
 	margin: 0 auto;
 }
+
 .go_header_overlay_heading {
-	font-weight: 300;
-	font-size: 4,5rem;
-	line-height: 1.2em;
+	font-weight: 300;	
 }
+
+.go_header_overlay_summary p {
+
+
+}
+
+.go_header_overlay_heading .go-header-text-one {
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.go_header_overlay_heading .go-header-text-two {
+	font-weight: 600;
+	font-size: 40px;
+}
+
 .go_header_overlay_summary {
-	font-size: 2,5rem;
+	font-size: 20px;
 	font-weight: 700;
 	margin-top: 2rem;
 }
@@ -71,7 +89,7 @@
 .text_img p {
 	font-weight: 600;
 	font-size: 30px;
-	line-height: 1,2em;
+	line-height: 1.2em;
 }
 .btn {
 	text-align: center;
