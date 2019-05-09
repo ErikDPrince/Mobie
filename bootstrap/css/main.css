@@ -1,38 +1,60 @@
 /*change  default color of bootstrap navbar*/
 /*cac class nên cach nhau bang dau - ko nen dau _*/
-.collapse.navbar-collapse .navbar-nav a {
-	font-weight: bold;
-	font-size: 15px;
+.go_header {
+	padding-left: 0;
 }
+
+.collapse.navbar-collapse .navbar-nav a {
+	font-weight: 600;
+	font-size: 16px;
+}
+
 /*class samelv .class1.class2 */
 /*class inside class class1 class2 separate by blank*/
+.collapse.navbar-collapse .navbar-nav a {
+	font-size: 16px;
+	font-weight: 600;
+}
+
 .collapse.navbar-collapse .navbar-nav a:hover {
 	color :#ffbf45;
 }
+
 .navbar {
 	margin-bottom: 0;
 	background-color: #000000;
 }
 
 .navbar-brand img {
-	width :4rem;
-	height: 3rem;
+	width :auto;
+	height: 35px;
+}
+
+.nav.navbar-nav.navbar-right .logo-navbar img 
+{
+	width :auto;
+	height: 25px;
 }
 /*header */
-.container.gig_layout {
+.go_header_overlay_container {
+	padding-left: 0;
+}
 
+.gig_layout {
 	/*background-image: url("../img/Frist.jpg");*/
-    background-image: url("../img/Frist.jpg");
+    background-image: url("../img/header-background-1.png");
     background-size: cover;
     background-position: center;
-    height: 35vw;
-    width: 100%;
+    height: 40vw;
+    max-width: : 100%;
     margin-bottom: 30px;
 }
+
 .go_header_overlay_container {
 	margin: 0 auto;
 	padding: 10rem 0;
 }
+
 .go_header_overlay_background {
 	position: inherit;
 	top:0;
@@ -41,7 +63,7 @@
 	height: 100%;
 	width: 55%;
 	background-color: rgba(255,255,255,0.8);
-	padding: 30px 0 30px 60px;
+	padding: 100px 160px;
 	line-height: 25px;
 
 }
@@ -54,11 +76,6 @@
 
 .go_header_overlay_heading {
 	font-weight: 300;	
-}
-
-.go_header_overlay_summary p {
-
-
 }
 
 .go_header_overlay_heading .go-header-text-one {
@@ -76,35 +93,49 @@
 	font-weight: 700;
 	margin-top: 2rem;
 }
+
 /*body include picture and text*/
+
 .img_info img {
 	max-width: 100%;
-	height: auto;
+	height: auto;/*
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 20px;*/
+	margin: 4rem 0rem;
 }
+
 .text_img {
-	margin: 30px;	
+	margin-left: -30px;
+	padding: 10rem 4rem;
+	font-size: 2rem; 	
 }
+
 .text_img p {
 	font-weight: 600;
 	font-size: 30px;
 	line-height: 1.2em;
+	margin: 15px 0;
 }
+
 .btn {
 	text-align: center;
-	font-weight: 400;
-	padding: 10px;
+	font-weight: 600;
+	padding: 10px 25px;
 	border: 10px;
-	margin: 20px;
+	margin: 20px 0;
 	background-color:#000000 ;
 	color :#ffffff;
-	font-size: 10pt;
-
+	font-size: 20px;
+	border-radius: 0;
 }
+
+.btn:hover {
+	color:#ffbf45;
+}
+
 .btn img {
-	width: 5px;
-	height: 5px;
+	max-width: 100%;
+	height: 1vw;
 }
 
 /*reduce using element should use class and call class*/
@@ -112,29 +143,67 @@
 	text-align: left;
 }*/
 
-
-
 .seeker_video {
+	background-image: url("../img/video.jpg");
+	background-size: cover;
+	background-position: center;
 	max-width: 100%;
-	height: auto;
+	height: 30vw;
+
 }
 
-.container.community {
+.text_layout /*.video-textlayout */{
+	position: relative;
+	font-size: 50px;
+	color: #ffffff;
+	padding: 9rem 9.5rem;
+	margin: 5rem 6rem;
+	line-height: 60px;
+}
+/*.video-textlayout {
+	position: relative;
+	font-size: 40px;
+	color: #ffffff;
+}*/
+.text_layout .youtubelogo {
+	max-width: 100%;
+	height: 5vw;
+}
+.community {
 	background-image: url("../img/community.png");
-	margin: 14vh 12vw 14vh 12vw;
-	/*margin-right: 10px;
-	margin-left: 10px;*/
+	margin: 12vh 4vw;
 	background-size: cover;
 	background-position: center;
 	width: -webkit-fill-available;
 	height: 30vw;
-	/*margin: 100;*/
 }
+
+.community-wraptext {
+	padding: 10rem 3rem;
+	margin: 6rem 8rem;
+}
+
+.community-intro {
+	font-size: 50px;
+	color :#ffffff;
+}
+
+.community .community-button {
+	background-color: #ffbf45;
+	text-align: center;
+	font-weight: 600;
+	font-size: 15px;
+	padding: 10px;
+	border-radius: 0;
+	border: 10px;
+	color:#ffffff;
+}
+
 .logo img {
 	max-width :webkit-fill-available;
 	height: inherit;
 }
-
+/*footer here*/
 #footer {
 	background-color:#000000;
 }
@@ -151,7 +220,10 @@ deu bi anh huong*/
 	text-decoration: bold;
 	display: block;
 }
-
+#footer .footer .logo img {
+	max-width: 100%;
+	height: 5vw;
+}
 #footer .footer {
 	list-style-type: none;
 	color:#ffffff;
@@ -169,21 +241,20 @@ deu bi anh huong*/
 {
 	display: inline-flex;
 }
-#footer .footer .logo img {
-	width:4rem;
-	height: 3rem; 
-}
+
 
 #footer .go_footer_links_desktop img {
 	display: inline;
 	/*width: 1rem;
 	height: 1rem;*/
 }
+
+#footer .go_footer_links.inactive
 /*class thi_ ko nen - */
 /*cách chia class hiển thị trong mobi và 
 destop khác nhau hidden element in bootstrap*/
 /*nguyen tac su dung container la phai co row va colum*/
-
+/**/
 
 
 
