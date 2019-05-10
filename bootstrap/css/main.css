@@ -5,29 +5,50 @@
 }
 
 .collapse.navbar-collapse .navbar-nav a {
-	font-weight: 600;
+	font-weight: lighter;
 	font-size: 16px;
+	color: #ffffff;
 }
 
 /*class samelv .class1.class2 */
 /*class inside class class1 class2 separate by blank*/
-.collapse.navbar-collapse .navbar-nav a {
+.collapse.navbar-collapse {
 	font-size: 16px;
 	font-weight: 600;
+	color:#ffffff;
 }
+..nav.navbar-nav.left-side {
+	margin: 5px 10px;
+}
+.nav.navbar-nav.left-side li a {
+	font-size: 20px;
+	font-weight: 500;
+	color: #ffffff;
+}
+/*khi viết class css nếu có class nhỏ hơn bao bọc thì sẽ ko còn 
+ảnh hưởng class ngoài cùng nữa ex:vd <div><a>khi đó sẽ bị ảnh 
+hưởng bởi thể a</a></div>*/
+
 
 .collapse.navbar-collapse .navbar-nav a:hover {
 	color :#ffbf45;
 }
 
-.navbar {
+
+.navbar.navbar-inverse {
 	margin-bottom: 0;
 	background-color: #000000;
+	border-radius: 0;
 }
-
-.navbar-brand img {
-	width :auto;
-	height: 35px;
+.navbar-brand.brand-logo {
+	display: block;
+	height: 56px;
+	padding: 5px 0;
+}
+.navbar-brand.brand-logo img {
+	padding: 0;
+	max-height: 100%;
+	width: auto;
 }
 
 .nav.navbar-nav.navbar-right .logo-navbar img 
@@ -35,6 +56,7 @@
 	width :auto;
 	height: 25px;
 }
+
 /*header */
 .go_header_overlay_container {
 	padding-left: 0;
@@ -156,8 +178,10 @@
 	position: relative;
 	font-size: 50px;
 	color: #ffffff;
-	padding: 9rem 9.5rem;
-	margin: 5rem 6rem;
+	padding: 12rem 0;
+	padding-right: 30rem;
+	margin-right: 30rem;
+	/*margin: 5rem 6rem;*/
 	line-height: 60px;
 }
 /*.video-textlayout {
@@ -179,8 +203,8 @@
 }
 
 .community-wraptext {
-	padding: 10rem 3rem;
-	margin: 6rem 8rem;
+	padding: 10rem 9.5rem;
+	margin: 6rem 1rem;
 }
 
 .community-intro {
@@ -249,7 +273,11 @@ deu bi anh huong*/
 	height: 1rem;*/
 }
 
-#footer .go_footer_links.inactive
+#footer .go_footer_links.inactive {
+	font-weight: 600;
+
+}
+#footer .go_footer_links inactive
 /*class thi_ ko nen - */
 /*cách chia class hiển thị trong mobi và 
 destop khác nhau hidden element in bootstrap*/
