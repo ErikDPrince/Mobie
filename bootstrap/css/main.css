@@ -91,7 +91,7 @@ hưởng bởi thể a</a></div>*/
 	height: 100%;
 	width: 55%;
 	background-color: rgba(255,255,255,0.8);
-	padding: 100px 165px;
+	padding: 100px 100px;
 	line-height: 25px;
 
 }
@@ -211,9 +211,11 @@ hưởng bởi thể a</a></div>*/
 }
 
 .community-wraptext {
-	padding: 10rem 3.5rem;
-	margin: 6rem 7rem;
+	/*padding: 10rem 3.5rem;
+	margin: 6rem 7rem;*/
 	padding-right: 12rem;
+	margin: 6rem 0rem;
+	padding: 6rem 3.5rem;
 }
 
 .community-intro {
